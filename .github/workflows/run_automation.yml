@@ -2,7 +2,7 @@ name: Auto Ping Graph API
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '*/15 * * * *' # Every 15 minutes
   workflow_dispatch:        
 
 jobs:
